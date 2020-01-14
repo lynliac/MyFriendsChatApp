@@ -26,7 +26,13 @@
 				<input type="password" class="form-control" name="pass" placeholder="Password" autocomplete="off" required>
 			</div>
 			<div class="small">Forgot password? <a href="forgot_pass.php">Click Here</a></div><br>
+			<div class="form-group">
+				<button type="submit" class="btn btn-primary btn btn-block btn-lg" name="login">Login</button>
+			</div>
+			<!--<?php //include("login_user.php"); ?> -->
 		</form>
+		<div class="text-center small" style="color: #674288;">Don't have an account? <a href="signup.php">Create Account</a></div> 
+
 	</div>
 	
 </body>
